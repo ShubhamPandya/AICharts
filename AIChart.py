@@ -7,17 +7,17 @@ import pandas as pd
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "INSERT YOUR KEY HERE"
 
 df_now = pd.DataFrame()
 
 #def conv_json()
 
-st.set_page_config(page_title="Tidbit's AI Chart")
+st.set_page_config(page_title="AI Chart")
 
 
 
-st.title("Tidbit's AI Chart")
+st.title("AI Chart")
 
 uploaded_file = st.file_uploader("Upload a dataset file in .csv or .xlsx format. Make sure that the first row contains column names.", type=['csv'])
 
